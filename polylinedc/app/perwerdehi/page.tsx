@@ -2,6 +2,12 @@
 
 
 
-import prisma from "generated/prisma";
+import React from 'react'
 
-const posts = await prisma.post.findMany();
+function page() {
+  return (
+    <div>page</div>
+  )
+}
+
+export default page
