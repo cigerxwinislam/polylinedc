@@ -99,11 +99,11 @@ export default function Footer() {
               <h6 className='text-uppercase fw-bold mb-4'>Bize Ulaşın</h6>
               <p>
                 <MDBIcon icon="home" className="me-2" />
-               Agirî/Turkey
+               Moskova/Rusya
               </p>
               <p>
                 <MDBIcon icon="envelope" className="me-3" />
-               yekazad@gmail.com
+           
               </p>
               <p>
                 <MDBIcon icon="phone" className="me-3" />  05549765692
