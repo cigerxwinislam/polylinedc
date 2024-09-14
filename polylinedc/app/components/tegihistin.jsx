@@ -10,10 +10,10 @@ import { WhatsAppWidget } from 'react-whatsapp-widget';
 export function Tegihistin() {
   return (<div>
     <Alert style={{margin:7 ,background:"white"}} >
-     <Button  href="tel:+905549765692"><FaPhone  /></Button> Telefon Et
+     <Button  href="tel:+7 999 397-60-38"><FaPhone  /></Button> Telefon Et
 
 
-  <WhatsAppWidget message=" Whatsapptan Mesajınızı Yazın" inputPlaceHolder="Mesajınızı Yazın" replyTimeText="En kısa zamanda dönüş yapılacaktır" sendButtonText="Gönder" companyName="" phoneNumber="+905549765692" ></WhatsAppWidget>
+  <WhatsAppWidget message=" Whatsapptan Mesajınızı Yazın" inputPlaceHolder="Mesajınızı Yazın" replyTimeText="En kısa zamanda dönüş yapılacaktır" sendButtonText="Gönder" companyName="" phoneNumber="+7 999 397-60-38 "></WhatsAppWidget>
 
   </Alert>
     </div>
