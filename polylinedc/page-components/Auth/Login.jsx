@@ -1,6 +1,6 @@
 // BİSMİLAHİRAHMANİRAHİM
 
-
+"use client"
 
 import { Button } from '@/components/Button';
 import { ButtonLink } from '@/components/Button/Button';
