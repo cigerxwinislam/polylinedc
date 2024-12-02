@@ -13,7 +13,7 @@ export function Tegihistin() {
      <Button  href="tel:+905549765692"><FaPhone  /></Button> Call
 
 
-  <WhatsAppWidget message=" Send your message" inputPlaceHolder="Type here" replyTimeText="Your messages wiil be answered inşaALLAH" sendButtonText="Send" companyName="Yekazad SC" phoneNumber="+905549765692" ></WhatsAppWidget>
+  <WhatsAppWidget message=" Send your message" inputPlaceHolder="Type here" replyTimeText="Your messages wiil be answered" sendButtonText="Send" companyName="Polyline DC" phoneNumber="+905549765692" ></WhatsAppWidget>
 
   </Alert>
     </div>

@@ -41,10 +41,11 @@ export default function Footer() {
             <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>
                 <MDBIcon icon="gem" className="me-3" />
-               Yekazad Software Center
+               
+               Polyline DC
               </h6>
               <p>
-           Software Development Company
+           ..... Company
               </p>
             </MDBCol>
 
@@ -102,14 +103,14 @@ export default function Footer() {
               <h6 className='text-uppercase fw-bold mb-4'>Contact to us</h6>
               <p>
                 <MDBIcon icon="home" className="me-2" />
-               Agirî/Turkey
+               adress:....
               </p>
               <p>
                 <MDBIcon icon="envelope" className="me-3" />
-               yekazad@gmail.com
+             
               </p>
               <p>
-                <MDBIcon icon="phone" className="me-3" />  05549765692
+                <MDBIcon icon="phone" className="me-3" /> 
               </p>
               <p>
                 <MDBIcon icon="print" className="me-3" />  
