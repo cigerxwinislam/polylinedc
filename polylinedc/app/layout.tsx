@@ -5,20 +5,25 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import BasicExample from "./components/nav";
+
+
 import 'bootstrap/dist/css/bootstrap.css'
-import Footer from "./components/footer";
+import BasicExample from "./nav";
 
 
 
-import { Alert } from "react-bootstrap";
-import { Tegihistin } from "./components/tegihistin";
+
+import Footer from "./footer";
+
+import { Tegihistin } from "./tegihistin";
+
+import React from "react";
 const inter = Inter({ subsets: ["latin"] });
 
 
 export const metadata: Metadata = {
-  title: "PolyLine DC",
-  description: ".........",
+  title: "Polyline DC",
+  description: ".....",
 };
 
 export default function RootLayout({
@@ -33,7 +38,7 @@ export default function RootLayout({
         <BasicExample/>
         {children}
     
-<Tegihistin />
+<Tegihistin/>
 
         <Footer/>
         </body>

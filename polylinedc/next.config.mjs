@@ -1,5 +1,20 @@
-import { withNextVideo } from "next-video/process";
-/** @type {import('next').NextConfig} */
-const nextConfig = {};
+// Bismillahirahmanirahim
 
-export default withNextVideo(nextConfig);
+
+
+// Bismillahirahmanirahim
+
+
+
+// next.config.js
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+	reactStrictMode: true,
+
+    eslint: {
+        ignoreDuringBuilds: true,
+    },
+};
+
+export default nextConfig;

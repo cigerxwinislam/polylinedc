@@ -21,6 +21,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["video.d.ts", "next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/layout.tsx", "app/page.tsx", "app/components/tegihistin.jsx", "lib/route.js"],
+  "include": ["video.d.ts", "next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/layout.tsx", "app/page.tsx", "app/components/tegihistin.jsx", "lib/route.js", "app/web/page.jsx"],
   "exclude": ["node_modules"]
 }
