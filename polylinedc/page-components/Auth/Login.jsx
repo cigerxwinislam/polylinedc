@@ -25,7 +25,7 @@ const Login = () => {
   const router = useRouter();
   useEffect(() => {
     if (isValidating) return;
-    if (user) router.replace('/feed');
+    if (user) router.replace('/malper/pages');
   }, [user, router, isValidating]);
 
   const onSubmit = useCallback(
@@ -98,12 +98,11 @@ const Login = () => {
         </form>
       </div>
       <div className={styles.footer}>
-        <Link href="/sign-up" passHref>
-          <TextLink color="link" variant="highlight">
+        <Link href="/malper/admin/sign-up" passHref>
+        
 
 
-            ...
-          </TextLink>
+           .....
         </Link>
       </div>
     </Wrapper>

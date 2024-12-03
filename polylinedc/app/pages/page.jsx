@@ -1,15 +1,21 @@
-import '@/assets/base.css';
-import { Layout } from '@/components/Layout';
+// Bismillahirahmanirahim
+
+"use client"
+
+import { Feed } from '@/page-components/Feed';
 import { ThemeProvider } from 'next-themes';
 import { Toaster } from 'react-hot-toast';
 
 export default function MyApp({ Component, pageProps }) {
   return (
     <ThemeProvider>
-      <Layout>
-        <Component {...pageProps} />
+
+
+
+      <Nav/>
+    <Feed/>
         <Toaster />
-      </Layout>
+      
     </ThemeProvider>
   );
 }

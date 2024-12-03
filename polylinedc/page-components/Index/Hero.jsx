@@ -33,11 +33,7 @@ const Hero = () => {
         <p className={styles.subtitle}>
         </p>
 
-      Slav li Şex Ehmed ê Xanî :
 
-"Nînin li me fikrû zikrek
-
- Nakin bi zebanî hemd û şukrek"
       </div>
     </Wrapper>   
   );

@@ -43,7 +43,7 @@ const SignUp = () => {
         });
         mutate({ user: response.user }, false);
         toast.success('Hûn bûn encam serxere');
-        router.replace('/feed');
+        router.replace('/pages');
       } catch (e) {
         toast.error(e.message);
       } finally {
@@ -116,9 +116,9 @@ const SignUp = () => {
         </form>
       </div>
       <div className={styles.footer}>
-        <Link href="/login" passHref>
+        <Link href="/malper/admin" passHref>
           <TextLink color="link" variant="highlight">
-            Jixwe Hûn Endam in? Têketin
+           Already have an account ?Sign in
           </TextLink>
         </Link>
       </div>
