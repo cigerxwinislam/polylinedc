@@ -70,7 +70,7 @@ const Poster = () => {
   return (
     <Wrapper>
       <div className={styles.root}>
-        <h5 className={styles.heading}>Here is for developers and contains educating contents.You can find some articles or solutions about development   📗 Dembaş 🌲</h5>
+        <h5 className={styles.heading}>Polyline Dc last articles   📗 Dembaş 🌲</h5>
         {loading ? (
           <LoadingDots>Amade dibe..</LoadingDots>
         ) : data?.user ? (
