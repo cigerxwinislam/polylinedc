@@ -1,7 +1,7 @@
 // Bismillahirrahmanirrahim
 
 // Elhamdullilahirabbul'alemin
-
+"use client"
 import React, { useEffect } from 'react';
 
 declare global {
