@@ -32,7 +32,7 @@ export default function Page() {
               Don&apos;t have an account? Sign up
             </Link>
           </div>
-          <Link href="/" className="block text-center hover:underline">
+          <Link href="/malper" className="block text-center hover:underline">
 
             Dashboard
             </Link>
