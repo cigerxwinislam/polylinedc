@@ -1,3 +1,11 @@
+// Bismillahirrahmanirrahim
+
+// Elhamdullilahirabbul'alemin
+
+// Es-selatu ve es-selamu ala Rasulina Muhammedin ve ala alihi ve sahbihi ecmain
+
+
+
 import { Toaster } from "@/components/ui/toaster";
 import { NextSSRPlugin } from "@uploadthing/react/next-ssr-plugin";
 import type { Metadata } from "next";
@@ -23,6 +31,9 @@ export const metadata: Metadata = {
     default: "Polyline DC",
   },
   description: "The social media app for powernerds",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
