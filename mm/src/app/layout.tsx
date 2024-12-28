@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     template: "%s | Polyline DC",
     default: "Polyline DC",
   },
-  description: "The social media app for powernerds",
+  description: "Polyline DC",
   icons: {
     icon: "/favicon.ico",
   },
