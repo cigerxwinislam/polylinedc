@@ -1,26 +1,14 @@
 // Bismillahirrahmanirrahim
 
 // Elhamdullilahirabbul'alemin
-"use client"
-import React, { useEffect } from 'react';
 
-declare global {
-  interface Window {
-    onYouTubeIframeAPIReady: () => void;
-    YT: any;
-  }
-}
+import React from 'react';
 
-function Mmmpage() {
-
-
-
+function MmmPage() {
   return (
     <div>
-    
-    <h1>This website is still developing ... Thank you </h1>
+      <div ></div>
     </div>
   );
 }
-
-export default Mmmpage;
+export default MmmPage;

@@ -1,6 +1,7 @@
 // Bismillahirrahmanirrahim
 
 // Elhamdullilahirabbul'alemin
+
 "use client"
 import React, { useEffect } from 'react';
 
@@ -24,15 +25,14 @@ function MmmPage() {
       new window.YT.Player('player', {
         videoId: 'nGnrGoR2bt4', // Replace with your YouTube video ID
         events: {
-          'onReady': (event: { target: { playVideo: () => void; mute: () => void; }; }) => {
+          'onReady': (event: { target: { playVideo: () => void; }; }) => {
             event.target.playVideo();
-            event.target.mute(); // Mute the video if you only want the audio
           }
         },
         playerVars: {
           'autoplay': 1,
           'loop': 1,
-          'playlist': 'YOUR_VIDEO_ID' // Required for looping
+          'playlist': 'nGnrGoR2bt4' // Required for looping
         }
       });
     };
@@ -40,7 +40,7 @@ function MmmPage() {
 
   return (
     <div>
-      <div id="player"></div>
+      <div id="player" style={{ display: 'none' }}></div>
     </div>
   );
 }
